@@ -4,24 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_auth_and_reg.css">
     <title>Авторизация</title>
 </head>
 
 <body>
     <div id="main_header">
         Верхний блок
+        <a href="autorization.html" id="autorization">SIGN IN</a>
+        <a href="registration.html" id="registration">SIGN UP</a>
     </div>
     <div id="main_main">
         Основной блок
-        <div id="nav_text">
-            Навигация по тексту
-        </div>
-        <div id="input_form">
-            Форма ввода
-        </div>
-        <a href="registration.html" class="btn" id="registration">Регистрация</a>
-        <a href="autorization.html" class="btn">Авторизация</a>
+        <form>
+            <div id="block_login">
+                <label for="login">USERNAME</label>
+                <input type="text" id="login">
+            </div>
+        </form>
+
+
     </div>
     <div id="main_footer">Нижний блок</div>
 </body>
