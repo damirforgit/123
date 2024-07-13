@@ -1,1 +1,36 @@
-* {}
+* {
+    /*    width: 945px;*/
+    padding: 5px;
+    margin: 10px;
+    border: 3px dashed red;
+
+}
+
+html {
+    border: 5px solid green;
+    background-color: goldenrod;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+div {
+    width: 945px;
+    background: lightgoldenrodyellow;
+}
+
+#main_header {
+    height: 84px;
+    border: 3px dashed orange;
+}
+
+#main_main {
+    height: 345px;
+    border: 3px dashed blue;
+}
+
+#main_footer {
+    height: 54px;
+    border: 3px dashed violet;
+}
