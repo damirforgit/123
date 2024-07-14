@@ -11,10 +11,57 @@ button:active {
 }
 
 
+
 #autorization {
     left: 88px;
 }
 
 #registration {
-    left: 700px;
+    left: 250px;
+}
+
+label {
+    padding: 30px;
+    margin: 20px;
+}
+
+#block_login {
+    position: absolute;
+    top: 195px;
+    height: 120px;
+    left: 60px;
+    width: 625px;
+}
+
+#login {
+    border-radius: 25px;
+    background-color: aqua;
+    width: 600px;
+    height: 60px;
+    padding: 4px;
+}
+
+#block_password {
+    position: absolute;
+    top: 425px;
+    height: 120px;
+    left: 60px;
+    width: 625px;
+}
+
+#password {
+    border-radius: 25px;
+    background-color: aqua;
+    width: 600px;
+    height: 60px;
+    padding: 4px;
+
+}
+
+#block_submit {
+    position: absolute;
+    top: 668px;
+    height: 120px;
+    left: 60px;
+    width: 625px;
 }
