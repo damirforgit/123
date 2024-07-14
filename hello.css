@@ -32,3 +32,15 @@
 .justify {
     text-align: justify;
 }
+
+a {
+    position: absolute;
+    top: 500px;
+    box-shadow: 5px 5px 5px red;
+    text-decoration: none;
+
+}
+
+#registration {
+    left: 700px;
+}
