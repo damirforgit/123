@@ -4,26 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_auth_and_reg.css">
     <title>Регистрация</title>
 </head>
 
 <body>
     <div id="main_header">
-        Верхний блок
+        <b>Верхний блок</b> Для прохождения теста необходимо пройти регистрацию!
     </div>
     <div id="main_main">
         Основной блок
-        <div id="nav_text">
-            Навигация по тексту
-        </div>
-        <div id="input_form">
-            Форма ввода
-        </div>
-        <a href="registration.html" class="btn" id="registration">Регистрация</a>
-        <a href="autorization.html" class="btn">Авторизация</a>
-    </div>
-    <div id="main_footer">Нижний блок</div>
+        <form>
+            <div id="block_login">
+                <label for="login">USERNAME</label>
+                <input type="text" id="login">
+            </div>
+            <div id="block_password">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password">
+            </div>
+            <div id="block_submit">
+                <input type="submit" value="SIGN IN" id="submit">
+
+            </div>
+        </form>
 </body>
 
 </html>
